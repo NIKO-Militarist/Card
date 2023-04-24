@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Form HELLO with button</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <main class="page">
+      <div class="page__main main">
+        <div class="main__container">
+          <div class="main__content">
+            <h2 class="main__title">My first "little" JS action</h2>
+            <div class="main__action">
+              <form action="" class="form-main__form">
+                <div class="form-main__input input-form">
+                  <input class="input-form__input" autocomplete="off" type="text" name="form[]" data-error="Помилка"
+                    placeholder="Введіть номер банківської картки">
+                  <input class="input-form__cvv" autocomplete="off" type="text" name="form[]" data-error="Помилка"
+                    placeholder="CVV код">
+                </div>
+                <button class="input-form__button" type="submit">Надіслати дані карки</button>
+                <div class="input-form__show-text"></div>
+              </form>
+            </div>
+          </div>
+          <div class="main__image">
+            <img src="img/js2.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+	font-family: "Poppins";
+	background-color: #222831;
+	color: rgba(238, 238, 238, 0.75);
+	font-size: 18px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+
+/* -------------- */
+
+[class*="__container"] {
+	max-width: 1280px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+/* ------------ header ------------------------------------------------------------------------------- */
+
+/* ------------ main ------------------------------------------------------------------------------- */
+
+.page {}
+
+.page__main {}
+
+.main__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.main__content {
+	flex: 1 1 100%;
+
+}
+
+.main__title {
+	text-align: center;
+	padding: 15px;
+}
+
+.main__action {
+	background-color: rgba(81, 87, 95, 0.5);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.form-main {}
+
+.form-main__form {}
+
+.form-main__input {}
+
+.input-form {}
+
+.input-form__input {
+	width: 100%;
+	min-height: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.input-form__input::placeholder {
+	text-align: center;
+}
+
+.input-form__cvv {
+	max-width: 35%;
+	min-height: 50px;
+	margin-bottom: 15px;
+}
+
+.input-form__cvv::placeholder {
+	text-align: center;
+}
+
+.input-form__show-text {
+	width: 100%;
+	min-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	padding: 25px;
+}
+
+.input-form__button {
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: rgba(14, 121, 62);
+	transition: all 0.3s ease 0s;
+}
+
+.input-form__button:hover {
+	background-color: rgba(14, 121, 62, 0.7);
+}
+
+.main__image {}
+
+.main__image img {
+	max-width: 100%;
+}
+
+
+
+
+/* ------------ footer  ------------------------------------------------------------------------------- */
+
+/* ------------   ------------------------------------------------------------------------------- */
+/* ------------   ------------------------------------------------------------------------------- */
